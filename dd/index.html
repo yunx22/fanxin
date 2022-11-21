@@ -1,6 +1,6 @@
 <!-- 
+  Created By Yunx
   Modified Based off http://love.aismy.top/buildlove2?color=pink&&music=no&&label= 
-  Implemented  By Yunx
 -->
 <!DOCTYPE html>
 <html>
@@ -47,7 +47,6 @@
     }
     #bgm {
       position: fixed;
-      bottom: 0;
       width: 100%;
     }
     audio {
@@ -140,10 +139,10 @@
   <body>
     <canvas id="floating-words" class="container"> </canvas>
     <div id="bgm" align="center">
-     <!--  <audio autoplay="" controls="" loop="infinite">
-        <source src="http://music.163.com/song/media/outer/url?&id=2511835894.mp3" type="audio/mpeg">
-      </audio> -->
-      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="https://music.163.com/outchain/player?type=3&id=2512093557&auto=1&height=66"></iframe>
+      <audio autoplay="" controls="" loop="infinite">
+        <source src="https://m8.music.126.net/20221121211844/ba16dfd7ff1cf4285f64de24692fdf74/ymusic/obj/w5zDlMODwrDDiGjCn8Ky/20175066472/fab0/50dd/4542/93af1fc13a9ee5c82e1a2d7161bde92a.mp3" type="audio/mpeg">
+      </audio>
+      <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=86 src="https://music.163.com/outchain/player?type=3&id=2512093557&auto=1&height=66"></iframe> -->
     </div>
     <!-- 樱花 -->
     <div id="heart-container" class="container">
@@ -253,7 +252,7 @@
       particles: {
         length: 500, // maximum amount of particles
         duration: 2, // particle duration in sec
-        velocity: -25, // particle velocity in pixels/sec
+        velocity: -45, // particle velocity in pixels/sec
         effect: -0.75, // play with this for a nice effect
         size: 25, // particle size in pixels
       },
